@@ -38,6 +38,7 @@ function App() {
   //add charge
   const handleCharge = e => {
     setCharge(e.target.value);
+    console.log(e.target.value)
   };
   // add amount
   const handleAmount = e => {
